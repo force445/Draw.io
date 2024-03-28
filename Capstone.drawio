@@ -1,9 +1,24 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T14:19:46.830Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" version="24.2.0" etag="iYVF8Biojjif4tNDn4m2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-27T21:55:28.448Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="jPjhSHr8MyTpoIcOCOVy" version="24.2.0" type="github">
   <diagram name="Page-1" id="KDUNl9cmpLyCEIJjUHdV">
-    <mxGraphModel>
+    <mxGraphModel dx="1370" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="c9PMvhDxVPfUdQk64ZS6-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="c9PMvhDxVPfUdQk64ZS6-1" target="c9PMvhDxVPfUdQk64ZS6-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9PMvhDxVPfUdQk64ZS6-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;LoRaWAN&lt;/font&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Sensors&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="200" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="c9PMvhDxVPfUdQk64ZS6-4" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Gateway&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="370" y="125" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c9PMvhDxVPfUdQk64ZS6-5" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.easyedge.io/wp-content/uploads/2021/04/LoRaWan-1-1-1.png;" vertex="1" parent="1">
+          <mxGeometry x="65" y="230" width="170" height="74.38" as="geometry" />
+        </mxCell>
+        <mxCell id="c9PMvhDxVPfUdQk64ZS6-7" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Gateway&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="660" y="125" width="200" height="140" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
