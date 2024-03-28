@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T22:05:55.277Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="hH1LWIRfYlcsymh6oBH7" version="24.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-27T22:18:26.951Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="s3Wq5Oo-ngjqqtBCtMuy" version="24.2.0" type="github">
   <diagram name="Page-1" id="KDUNl9cmpLyCEIJjUHdV">
     <mxGraphModel dx="1386" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -35,16 +35,25 @@
           <mxGeometry x="170" y="460" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c9PMvhDxVPfUdQk64ZS6-20" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Middleware&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;(Python Script)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="450" y="290" width="200" height="250" as="geometry" />
+          <mxGeometry x="450" y="320" width="200" height="250" as="geometry" />
         </mxCell>
         <mxCell id="c9PMvhDxVPfUdQk64ZS6-23" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Listen Topic MQTT&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="360" y="555" width="120" height="40" as="geometry" />
+          <mxGeometry x="360" y="580" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c9PMvhDxVPfUdQk64ZS6-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c9PMvhDxVPfUdQk64ZS6-25" target="c9PMvhDxVPfUdQk64ZS6-20">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="c9PMvhDxVPfUdQk64ZS6-25" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;SQL Database&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="464.45" y="40" width="180" height="210" as="geometry" />
+          <mxGeometry x="435" y="10" width="230" height="250" as="geometry" />
         </mxCell>
         <mxCell id="c9PMvhDxVPfUdQk64ZS6-26" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/800px-Postgresql_elephant.svg.png;" vertex="1" parent="1">
-          <mxGeometry x="509" y="30" width="90.91" height="93.75" as="geometry" />
+          <mxGeometry x="511.21" y="30" width="77.58" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c9PMvhDxVPfUdQk64ZS6-28" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Read and Check&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="588.79" y="270" width="121.21" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c9PMvhDxVPfUdQk64ZS6-31" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Timeseries Database&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="840" y="320" width="200" height="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
