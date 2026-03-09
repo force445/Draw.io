@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:139.0) Gecko/20100101 Firefox/139.0" version="29.6.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:139.0) Gecko/20100101 Firefox/139.0" version="29.6.1">
   <diagram name="Page-1" id="LIXIF6qv3kFDBYuWV308">
-    <mxGraphModel dx="1019" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="792" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -69,6 +69,39 @@
         </mxCell>
         <mxCell id="Th8EQo8QaRy_xXcYQYKm-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="All workloads on worker" vertex="1">
           <mxGeometry height="30" width="150" x="650" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="vbMyHAi5OYCg_0J59TUq-9" edge="1" parent="1" source="vbMyHAi5OYCg_0J59TUq-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="vbMyHAi5OYCg_0J59TUq-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vbMyHAi5OYCg_0J59TUq-10" edge="1" parent="1" source="vbMyHAi5OYCg_0J59TUq-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="vbMyHAi5OYCg_0J59TUq-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vbMyHAi5OYCg_0J59TUq-11" edge="1" parent="1" source="vbMyHAi5OYCg_0J59TUq-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="vbMyHAi5OYCg_0J59TUq-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vbMyHAi5OYCg_0J59TUq-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="nginx" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="vbMyHAi5OYCg_0J59TUq-5" edge="1" parent="1" source="vbMyHAi5OYCg_0J59TUq-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vbMyHAi5OYCg_0J59TUq-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vbMyHAi5OYCg_0J59TUq-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="User" vertex="1">
+          <mxGeometry height="60" width="30" x="280" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="vbMyHAi5OYCg_0J59TUq-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" value="" vertex="1">
+          <mxGeometry height="380" width="190" x="590" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="vbMyHAi5OYCg_0J59TUq-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="backend" vertex="1">
+          <mxGeometry height="60" width="120" x="625" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="vbMyHAi5OYCg_0J59TUq-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="map-maker" vertex="1">
+          <mxGeometry height="60" width="120" x="625" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="vbMyHAi5OYCg_0J59TUq-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="preview-alarm-message-api" vertex="1">
+          <mxGeometry height="60" width="120" x="625" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="vbMyHAi5OYCg_0J59TUq-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NodeJS" vertex="1">
+          <mxGeometry height="30" width="60" x="655" y="690" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
